@@ -1,0 +1,54 @@
+name: "Bug Report (Windows)"
+description: "Report a crash or issue occurring on Windows."
+title: "[Windows] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "VS Null Version"
+      placeholder: "e.g., v0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: "Windows Version"
+      placeholder: "e.g., Windows 10, Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      placeholder: "What should have happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior"
+      placeholder: "What actually happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Crash Log / Error Message"
+      placeholder: "Paste crash log or attach file."
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots (Optional)"
+      placeholder: "Attach any screenshots if relevant."

@@ -1,0 +1,18 @@
+name: "Other / General Issue"
+description: "Report non-crash issues, questions, or feedback."
+title: "[Other] "
+labels:
+  - "other"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the Issue"
+      placeholder: "Explain the issue or feedback in detail."
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Info (Optional)"
+      placeholder: "Screenshots, suggestions, or extra context."
