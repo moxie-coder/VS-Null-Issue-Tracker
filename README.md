@@ -1,6 +1,6 @@
 # VS Null Issue Tracker
 
-This repository serves as the **official issue tracker** for the FNF mod **VS Null**.  
+This repository serves as the **official issue tracker** for the FNF mod **[VS Null](https://gamebanana.com/mods/447674)**.  
 It is intended to collect crash reports and other critical issues reported by players across all platforms (Windows, macOS, Linux). The source code for the mod is [here](https://github.com/VS-Null/NullFunkinDemo-Public) and will be updated as progress is made. This repo exists solely to track issues.
 
 ---
